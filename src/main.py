@@ -29,8 +29,6 @@ from discord.ext import commands
 from textblob import TextBlob
 
 import central
-#import comparet
-#import shippost
 from bulli import bulli
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -49,8 +47,6 @@ memes = []
 pullingCSV = False
 commandlist = ["help", "refresh", "speak", "nospeak", "status", "dc", "bw", "servers", "nobulli", "echo"]
 pic_ext = ['.jpg', '.png', '.jpeg', 'gif']
-#musicfiles = listdir('sound')
-#cooldown = time.time()-15
 cooldowns = {}
 
 
